@@ -14,6 +14,7 @@ The components of SAVE worked on or developed under the Data+Climate collaborati
   - A customizable ipywidget showing how to dynamically add Data Commons data to an existing glue-jupyter session
 - [ipyleaflet](https://ipyleaflet.readthedocs.io/en/latest/) -- An ipywidget for display of maps using [leaflet.js](https://leafletjs.com)
 - [xarray-leaflet](https://xarray-leaflet.readthedocs.io/en/latest/) -- to enable the visualization of large datasets efficiently
+- [glue-jupyter-plugin-template](https://github.com/jfoster17/glue-jupyter-plugin-template) -- a template plug-in demonstrating how to turn ipywidgets into glue-jupyter widgets.
 
 In addition, the following components are used in SAVE:
 
