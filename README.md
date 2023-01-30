@@ -25,9 +25,11 @@ As part of the [Climate and Justice Design Fellowship](https://projects.iq.harva
 - Conduct data analysis and export specific visualizations for the [California Map of Hazardous Waste Sites and Schools](https://ejhazardouswaste.com/) by Idalmis Vaquero
 
 ![ejhazardouswaste](https://user-images.githubusercontent.com/3639698/215529678-9e33b55d-6802-4534-ac83-fcd415082708.png)
+![hazardous-waste-example](https://user-images.githubusercontent.com/3639698/215537632-1ce38cbf-bec0-4935-b6a5-292d38e029d4.gif)
 
 - Provide interactive visualizations for the [Blue-Lining](https://bluelining.org/) project by Carlos Claussel. A version of these interactive visualizations are available [here](https://glue-map-demo.net)
 
 ![blue-lining-project](https://user-images.githubusercontent.com/3639698/215523270-e2e23b63-6975-4385-8cb0-8b91132e28c6.png)
 
+![subset-creation-bluelining](https://user-images.githubusercontent.com/3639698/215537659-ee315aac-c283-4ac9-9932-ad681a77d20e.gif)
 
