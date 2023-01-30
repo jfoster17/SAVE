@@ -16,7 +16,7 @@ The components of SAVE worked on or developed under the Data+Climate collaborati
 In addition, the following components are used in SAVE:
 
 - [voila](https://voila.readthedocs.io/en/stable/) -- to host a SAVE analysis session as a stand-alone webpage
-- [voila gridstack](https://github.com/voila-dashboards/voila-gridstack]) -- the preference voila template to allow for easy organization of different visualizations on the same page.
+- [voila gridstack](https://github.com/voila-dashboards/voila-gridstack) -- the preference voila template to allow for easy organization of different visualizations on the same page.
 
 ## Examples
 
