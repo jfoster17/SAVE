@@ -18,12 +18,12 @@ The core components of SAVE worked on or developed under the Data+Climate collab
 
 Two prototype plug-ins for the desktop (QT) version of glue allow access to external data:
 - [glue-dataverse](https://github.com/jfoster17/glue-dataverse) -- access to [Dataverse](https://dataverse.org) data resources through an integrated web client 
-- [glue-data-commonts](https://github.com/jfoster17/glue-data-commons) -- access to DataCommons data resources
+- [glue-data-commons](https://github.com/jfoster17/glue-data-commons) -- access to DataCommons data resources
 
 In addition, the following components are used in SAVE to produce standalone websites/dashboards:
 
 - [voila](https://voila.readthedocs.io/en/stable/) -- to host a SAVE analysis session as a stand-alone webpage
-- [voila gridstack](https://github.com/voila-dashboards/voila-gridstack) -- the preference voila template to allow for easy organization of different visualizations on the same page.
+- [voila gridstack](https://github.com/voila-dashboards/voila-gridstack) -- the preferred voila template to allow for easy organization of different visualizations on the same page.
 
 ## Examples
 
