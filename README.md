@@ -5,7 +5,7 @@ The Search Analysis and Visualization Environment is a component of the [Data+Cl
 
 ## Components
 
-The components of SAVE worked on or developed under the Data+Climate collaboration include:
+The core components of SAVE worked on or developed under the Data+Climate collaboration include:
 
 - [glue-jupyter](https://glue-jupyter.readthedocs.io/en/latest/) -- glue in a Jupyter notebook
 - [glue-map](https://github.com/jfoster17/glue-map) -- a glue-jupyter plugin for:
@@ -16,7 +16,11 @@ The components of SAVE worked on or developed under the Data+Climate collaborati
 - [xarray-leaflet](https://xarray-leaflet.readthedocs.io/en/latest/) -- to enable the visualization of large datasets efficiently
 - [glue-jupyter-plugin-template](https://github.com/jfoster17/glue-jupyter-plugin-template) -- a template plug-in demonstrating how to turn ipywidgets into glue-jupyter widgets.
 
-In addition, the following components are used in SAVE:
+Two prototype plug-ins for the desktop (QT) version of glue allow access to external data:
+- [glue-dataverse](https://github.com/jfoster17/glue-dataverse) -- access to [Dataverse](https://dataverse.org) data resources through an integrated web client 
+- [glue-data-commonts](https://github.com/jfoster17/glue-data-commons) -- access to DataCommons data resources
+
+In addition, the following components are used in SAVE to produce standalone websites/dashboards:
 
 - [voila](https://voila.readthedocs.io/en/stable/) -- to host a SAVE analysis session as a stand-alone webpage
 - [voila gridstack](https://github.com/voila-dashboards/voila-gridstack) -- the preference voila template to allow for easy organization of different visualizations on the same page.
