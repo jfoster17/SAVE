@@ -8,8 +8,10 @@ The Search Analysis and Visualization Environment is a component of the [Data+Cl
 The components of SAVE worked on or developed under the Data+Climate collaboration include:
 
 - [glue-jupyter](https://glue-jupyter.readthedocs.io/en/latest/) -- glue in a Jupyter notebook
-- [glue-map](https://github.com/jfoster17/glue-map) -- a glue-jupyter plugin for the display and analysis of geo-spatial data, leveraging [ipyleaflet](https://ipyleaflet.readthedocs.io/en/latest/) and [xarray-leaflet](https://xarray-leaflet.readthedocs.io/en/latest/)
-- An customizable ipywidget showing how to dynamically add Data Commons data to an existing glue-jupyter session
+- [glue-map](https://github.com/jfoster17/glue-map) -- a glue-jupyter plugin for:
+  - Loading geospatial data from a variety of vector formats
+  - The display and analysis of geo-spatial data, leveraging [ipyleaflet](https://ipyleaflet.readthedocs.io/en/latest/) and [xarray-leaflet](https://xarray-leaflet.readthedocs.io/en/latest/)
+  - A customizable ipywidget showing how to dynamically add Data Commons data to an existing glue-jupyter session
 - [ipyleaflet](https://ipyleaflet.readthedocs.io/en/latest/) -- An ipywidget for display of maps using [leaflet.js](https://leafletjs.com)
 - [xarray-leaflet](https://xarray-leaflet.readthedocs.io/en/latest/) -- to enable the visualization of large datasets efficiently
 
