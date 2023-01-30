@@ -40,3 +40,14 @@ As part of the [Climate and Justice Design Fellowship](https://projects.iq.harva
 
 ![subset-creation-bluelining](https://user-images.githubusercontent.com/3639698/215537659-ee315aac-c283-4ac9-9932-ad681a77d20e.gif)
 
+## Installation
+
+We recommend creating a new Python virtual environment in which to install and use SAVE. The libraries underlying GeoPandas (used to represent geo-spatial data within glue) may prove difficult to install with `pip` on some platforms, in which case we recommend using Conda/[Mamba](https://mamba.readthedocs.io/en/latest/index.html) to [install GeoPandas](https://geopandas.org/en/stable/getting_started/install.html) before attempting to pip install this package.
+
+`pip install install git+:https://github.com/jfoster17/SAVE.git`
+
+## Deployment
+
+We have found that long-running deployments of SAVE via voila lead to the server running out of resources as old processes associated with the voila kernal continue to hang around, consuming memory. We recommend deploying voila with the option to cull old kernals like this:
+
+`voila --no-browser MY-SAVE-NOTEBOOK.ipynb --template=gridstack --preheat_kernel=True --pool_size=4 --ExecutePreprocessor.timeout=180 --MappingKernelManager.cull_interval=120 --MappingKernelManager.cull_idle_timeout=600`
