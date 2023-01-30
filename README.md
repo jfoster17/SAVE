@@ -1,7 +1,7 @@
 # SAVE
 Search Analysis and Visualization Environment
 
-The Search Analysis and Visualization Environment is a component of the [Data+Climate collaboration](https://sites.google.com/cfa.harvard.edu/data-climate/home?pli=1), joining the diverse knowledge resources of [Data Commons](https://datacommons.org) with tools such as the [glue visualization library](http://glueviz.org)
+The Search Analysis and Visualization Environment is a component of the [Data+Climate collaboration](https://sites.google.com/cfa.harvard.edu/data-climate/home?pli=1), joining the diverse knowledge resources of [Data Commons](https://datacommons.org) with tools such as the [glue visualization library](http://glueviz.org). This repository is a meta-package collecting the various components to allow for easy installation.
 
 ## Components
 
