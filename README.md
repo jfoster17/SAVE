@@ -46,6 +46,11 @@ We recommend creating a new Python virtual environment in which to install and u
 
 `pip install install git+:https://github.com/jfoster17/SAVE.git`
 
+## Schematic
+
+![Schematic](https://user-images.githubusercontent.com/3639698/216450558-0a038951-b49c-44c0-8361-9fc02b376bf3.png)
+
+
 ## Deployment
 
 We have found that long-running deployments of SAVE via voila lead to the server running out of resources as old processes associated with the voila kernal continue to hang around, consuming memory. We recommend deploying voila with the option to cull old kernals like this:
