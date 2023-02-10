@@ -34,7 +34,7 @@ As part of the [Climate and Justice Design Fellowship](https://projects.iq.harva
 ![ejhazardouswaste](https://user-images.githubusercontent.com/3639698/215529678-9e33b55d-6802-4534-ac83-fcd415082708.png)
 ![hazardous-waste-example](https://user-images.githubusercontent.com/3639698/215537632-1ce38cbf-bec0-4935-b6a5-292d38e029d4.gif)
 
-- Provide interactive visualizations for the [Blue-Lining](https://bluelining.org/) project by Carlos Claussel. A version of these interactive visualizations are available [here](https://glue-map-demo.net)
+- Provide interactive visualizations for the [Blue-Lining](https://bluelining.org/) project by Carlos Claussel. A version of these interactive visualizations are available [here](https://glue-map-demo.net) (this server is not running all the time).
 
 ![blue-lining-project](https://user-images.githubusercontent.com/3639698/215523270-e2e23b63-6975-4385-8cb0-8b91132e28c6.png)
 
@@ -45,6 +45,11 @@ As part of the [Climate and Justice Design Fellowship](https://projects.iq.harva
 We recommend creating a new Python virtual environment in which to install and use SAVE. The libraries underlying GeoPandas (used to represent geo-spatial data within glue) may prove difficult to install with `pip` on some platforms, in which case we recommend using Conda/[Mamba](https://mamba.readthedocs.io/en/latest/index.html) to [install GeoPandas](https://geopandas.org/en/stable/getting_started/install.html) before attempting to pip install this package.
 
 `pip install install git+:https://github.com/jfoster17/SAVE.git`
+
+## Schematic
+
+![Schematic](https://user-images.githubusercontent.com/3639698/216450558-0a038951-b49c-44c0-8361-9fc02b376bf3.png)
+
 
 ## Deployment
 
