@@ -44,7 +44,7 @@ As part of the [Climate and Justice Design Fellowship](https://projects.iq.harva
 
 We recommend creating a new Python virtual environment in which to install and use SAVE. The libraries underlying GeoPandas (used to represent geo-spatial data within glue) may prove difficult to install with `pip` on some platforms, in which case we recommend using Conda/[Mamba](https://mamba.readthedocs.io/en/latest/index.html) to [install GeoPandas](https://geopandas.org/en/stable/getting_started/install.html) before attempting to pip install this package.
 
-`pip install install git+:https://github.com/jfoster17/SAVE.git`
+`pip install git+https://github.com/jfoster17/SAVE.git`
 
 ## Schematic
 
